@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>view</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import SwiftUI
+
+struct &lt;#ViewName#&gt;: View {
+
+    // MARK: - Properties
+
+    // MARK: - Init
+
+    init () {
+
+    }
+
+    // MARK: - Body
+
+    var body: some View {
+        Text("Label")
+    }
+}
+
+// MARK: - Preview
+
+#Preview("View") {
+    &lt;#ViewName#&gt;()
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8E48C208-5C13-4CE2-8C0E-93121A0F86E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A SwiftUI view with import, marks, init, body and preview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Empty SwiftUI view</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
